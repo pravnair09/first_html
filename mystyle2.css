@@ -15,3 +15,5 @@ color: #2A2E45;
 body {
     background-color: #EAF2E3;
 }
+div{columns: 2;
+}
