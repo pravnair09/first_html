@@ -13,7 +13,7 @@ body {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(221, 105, 105);
+    background-color: #04AA6D);
     overflow: hidden;
   }
   
@@ -35,6 +35,6 @@ body {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #e64a4a;
     color: white;
   }
