@@ -17,6 +17,7 @@ body {
 }
 div{columns: 2;
 }
+
 < Navigation >
 <div class="w3-top w3-bar w3-black">
 <a href="#home" class="w3-bar-item w3-button">Home</a>
@@ -24,4 +25,11 @@ div{columns: 2;
 <a href="#members" class="w3-bar-item w3-button">Members</a>
 <a href="#contact" class="w3-bar-item w3-button">Contact</a>
 </div>
+
 <img src="img_la.jpg" alt="LA" style="width:100%">
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
