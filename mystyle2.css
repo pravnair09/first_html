@@ -1,8 +1,4 @@
 h1{
-color: #2A2E45;  
-}
-
-h1{
 color: #F25757;
  }
 
@@ -15,21 +11,30 @@ color: #2A2E45;
 body {
     background-color: #EAF2E3;
 }
-div{columns: 2;
-}
-
-< Navigation >
-<div class="w3-top w3-bar w3-black">
-<a href="#home" class="w3-bar-item w3-button">Home</a>
-<a href="#about" class="w3-bar-item w3-button">About</a>
-<a href="#members" class="w3-bar-item w3-button">Members</a>
-<a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
-
-<img src="img_la.jpg" alt="LA" style="width:100%">
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: blue;
-    }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(221, 105, 105);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */ 
+  .topnav a {
+    float: left;
+    color: #030303;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(241, 238, 9);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
   }
