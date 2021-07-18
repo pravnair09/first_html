@@ -10,7 +10,20 @@ color: #2A2E45;
 
 body {
     background-color: #EAF2E3;
+    background-image: url(https://images.pexels.com/photos/74140/portugal-sand-overexposed-faded-74140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+#color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  opacity: 0.6;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #04AA6D);
@@ -37,4 +50,27 @@ body {
   .topnav a.active {
     background-color: #e64a4a;
     color: white;
+  }
+
+  .box-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+  .box {
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 5px 5px black;
+    width: 80px;
+    padding: 10px;
+    margin: left;
+  }
+  .box {
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 5px 5px black;
+    width: 80px;
+    padding: 10px;
+    margin: auto;
   }
